@@ -1,4 +1,4 @@
-# Visit the profile for more solutions with minimum complexity
+# Visit the profile for more solutions with minimum complexity 
 #https://leetcode.com/sonukkushwaha0801/
 # Type one:
 class Solution:
