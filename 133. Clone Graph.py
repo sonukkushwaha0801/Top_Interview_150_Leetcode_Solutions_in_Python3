@@ -4,7 +4,6 @@
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
         if not node: return node
-        
         q, clones = deque([node]), {node.val: Node(node.val, [])}
         while q:
             cur = q.popleft() 
@@ -23,7 +22,6 @@ class Solution:
 from typing import Optional
 
 class Solution:
-
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         ntoc = {None: None} # node to copy
 
