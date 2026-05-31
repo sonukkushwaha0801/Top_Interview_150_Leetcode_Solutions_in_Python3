@@ -1,8 +1,7 @@
 # Visit the profile for more solutions with minimum complexity
 #https://leetcode.com/sonukkushwaha0801/
 # One way:
-from cmath import inf
-
+from cmath import inf 
 
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
