@@ -15,7 +15,6 @@ class BSTIterator:
                 dfs(node.left)
                 values.append(node.val)
                 dfs(node.right)
-
         dfs(root)
 
         return values
