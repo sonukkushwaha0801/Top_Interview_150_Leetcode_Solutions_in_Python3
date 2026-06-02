@@ -17,7 +17,7 @@ class Solution:
                     
         return dp[-1]
     
-# Another way:
+# Another way: 
 class Solution:
     def wordBreak(self, s: str, wordDict: list[str]) -> bool:
         q = deque([s])
